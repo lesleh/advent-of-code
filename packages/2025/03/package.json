@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "ts-node --esm index.ts",
+    "start:part2": "ts-node --esm part-2.ts",
     "test": "ts-node --esm index.ts",
     "check": "tsc --pretty"
   },
