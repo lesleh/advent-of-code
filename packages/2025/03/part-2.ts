@@ -19,7 +19,7 @@ function selectMaxSubsequence(bank: Bank, selectionLength = 12): string {
     while (
       stack.length > 0 &&
       stack[stack.length - 1] < digit &&
-      stack.length - 1 + remaining >= selectionLength
+      stack.length + remaining >= selectionLength
     ) {
       stack.pop();
     }
