@@ -1,6 +1,6 @@
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseInput } from "./index.ts";
+import { parseInput } from "./index.js";
 
 type Bank = string;
 

@@ -1,0 +1,21 @@
+{
+  "name": "@lesleh/advent-of-code-2025",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "day01": "tsx 01/index.ts",
+    "day02": "tsx 02/index.ts",
+    "day02:part2": "tsx 02/part-2.ts",
+    "day03": "tsx 03/index.ts",
+    "day03:part2": "tsx 03/part-2.ts",
+    "day04": "tsx 04/index.ts",
+    "day04:part2": "tsx 04/part-2.ts",
+    "check": "tsc --pretty"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

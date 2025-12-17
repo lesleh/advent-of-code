@@ -9,9 +9,8 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": ["node"],
-    "allowImportingTsExtensions": true
+    "types": ["node"]
   },
-  "include": ["*.ts"],
+  "include": ["**/*.ts"],
   "exclude": ["node_modules"]
 }

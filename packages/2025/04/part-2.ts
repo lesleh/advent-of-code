@@ -1,6 +1,6 @@
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseGrid } from "./index.ts";
+import { parseGrid } from "./index.js";
 
 type Grid = string[];
 
