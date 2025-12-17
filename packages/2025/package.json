@@ -11,10 +11,16 @@
     "day03:part2": "tsx 03/part-2.ts",
     "day04": "tsx 04/index.ts",
     "day04:part2": "tsx 04/part-2.ts",
-    "check": "tsc --pretty"
+    "check": "tsc --pretty",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test:watch": "NODE_OPTIONS='--experimental-vm-modules' jest --watch",
+    "test:coverage": "NODE_OPTIONS='--experimental-vm-modules' jest --coverage"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^22.10.1",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3"
   }
