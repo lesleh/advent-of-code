@@ -11,6 +11,7 @@
     "day03:part2": "tsx 03/part-2.ts",
     "day04": "tsx 04/index.ts",
     "day04:part2": "tsx 04/part-2.ts",
+    "day05": "tsx 05/index.ts",
     "check": "tsc --pretty",
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "test:watch": "NODE_OPTIONS='--experimental-vm-modules' jest --watch",
